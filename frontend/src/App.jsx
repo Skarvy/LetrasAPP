@@ -8,6 +8,8 @@ import Servicios from "./components/services/Servicios"
 import Footer from "./components/footer/Footer"
 import BannerSendText from "./components/banners/BannerSendText"
 import Hero from "./components/hero/Hero"
+import Testimony from "./components/testimony/Testimony"
+
 
 
 
@@ -33,11 +35,15 @@ function App() {
       
       <ResponsiveAppBar/>   
         
-              <Hero/>
+              <Hero/>        
               
               <Servicios/>
-              <BannerSendText/>
+              
+              
+            
+              <Testimony/>
            
+              <BannerSendText/>
             
       
       <Footer/>
